@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Віртуальне середовище
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Локальні дані
+data/
+*.log
+
+# Системні файли
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Інше
+messeg/

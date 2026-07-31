@@ -1,0 +1,25 @@
+from enum import Enum
+
+
+class PacketType(Enum):
+
+    PING = "PING"
+    PONG = "PONG"
+
+    CONNECT = "CONNECT"
+    DISCONNECT = "DISCONNECT"
+
+    MESSAGE = "MESSAGE"
+
+    FILE_INFO = "FILE_INFO"
+
+    BLOCK_REQUEST = "BLOCK_REQUEST"
+    BLOCK_RESPONSE = "BLOCK_RESPONSE"
+
+    GRAPH_SYNC = "GRAPH_SYNC"
+
+    HEARTBEAT = "HEARTBEAT"
+
+    ACK = "ACK"
+
+    ERROR = "ERROR"
